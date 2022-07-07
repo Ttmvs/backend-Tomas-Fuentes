@@ -25,9 +25,9 @@ class Usuario {
 
     
     
-    /* Usuario.addBook({})
+    Usuario.addBook({})
     Usuario.addMascota(nombreMascota);
-    Usuario.addMascota(nombreMascota); */
+    Usuario.addMascota(nombreMascota);
     
     console.log(user.countMascotas());
     console.log(user.getFullName())
@@ -36,4 +36,4 @@ class Usuario {
 
  const p = new Usuario('Juan', 'Gomez', [{nombre: 'Coraline y la puerta secreta', author:'Neil Gaiman'}, {nombre: 'Harry Potter y la camara secreta', author: 'J. K. Rowling'}], ['gato', 'perro'])
 console.log(p)
-/*p.getFullName(); */
+p.getFullName();
